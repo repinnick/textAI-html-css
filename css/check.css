@@ -3,7 +3,8 @@ body {
 }
 
 .main_check {
-    width: 63%;
+    width: 100%;
+    max-width: 900px;
     margin-top: 172px;
 }
 
@@ -32,7 +33,8 @@ body {
 }
 
 .main__back_button form input{
-    width: 223px;
+    width: 100%;
+    max-width: 223px;
     height: 66px;
     background: #9C17DB;
     box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
