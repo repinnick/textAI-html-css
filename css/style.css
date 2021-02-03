@@ -28,11 +28,12 @@ dd {
 
 body {
   min-height: 100vh;
+  max-width: 1440px;
   background: linear-gradient(180deg, #4568dc 0%, #af6ab3 100%), #4568dc;
   scroll-behavior: smooth;
   text-rendering: optimizeSpeed;
-  font-family: Exo2, sans-serif;
-  /*line-height: 1.5;*/
+  font-family: 'Exo 2', sans-serif;
+  margin: 0 auto;
 }
 
 a {
