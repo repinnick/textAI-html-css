@@ -56,8 +56,7 @@ a {
   flex-direction: column;
   align-items: center;
   text-align: center;
-  width: 82%;
-  font-family: Exo, sans-serif;
+  width: 85%;
 }
 
 .header h1 {
@@ -82,7 +81,7 @@ a {
 }
 
 .main {
-  width: 82%;
+  width: 85%;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -90,18 +89,18 @@ a {
   margin-bottom: 0;
 }
 
-.main__right-side {
+.main__right_side {
   width: 50%;
   margin-left: 30px;
 }
 
-.main__right-side img {
+.main__right_side img {
   width: 100%;
   height: 340px;
   border-radius: 20px;
 }
 
-.main__left-side {
+.main__left_side {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -109,18 +108,17 @@ a {
   margin-right: 30px;
 }
 
-.main__left-side_textarea textarea {
+.main__textarea textarea {
   width: 100%;
   height: 240px;
   background: #f4f4f4;
-  border: 2px solid #191f82;
+  border: 2px solid #9c17db;
   box-sizing: border-box;
   border-radius: 20px;
   outline: none;
   padding: 30px;
-  font-family: Roboto, sans-serif;
   font-style: normal;
-  font-weight: normal;
+  font-weight: 400;
   font-size: 18px;
   line-height: 21px;
 }
@@ -129,79 +127,74 @@ textarea::placeholder {
   color: #b1afaf;
 }
 
-.main__left-side_textarea {
+.main__textarea {
   margin-bottom: 0;
 }
 
-.main__left-side_content {
-  margin-top: 30px;
-}
-
-.main__left-side_choice {
+.main__choice {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
 }
 
-.main__left-side_choice select {
+.main__choice select {
   width: 58%;
   height: 70px;
   background: #ffffff;
-  border: 2px solid #0b6eed;
+  border: 2px solid #9c17db;
   box-sizing: border-box;
   border-radius: 10px;
-  font-family: Roboto, sans-serif;
   font-style: normal;
-  font-weight: normal;
+  font-weight: 400;
   font-size: 24px;
   line-height: 28px;
   color: #000000;
   cursor: pointer;
 }
-.main__left-side_choice select option {
-  font-family: Roboto, sans-serif;
+.main__choice select option {
   font-style: normal;
-  font-weight: normal;
+  font-weight: 400;
   font-size: 24px;
   line-height: 28px;
   color: #000000;
 }
 
-.main__left-side_choice button {
+.main__choice button {
   width: 40%;
   height: 70px;
-  font-family: Exo, sans-serif;
   font-style: normal;
   font-weight: bold;
   font-size: 28px;
   line-height: 34px;
   text-align: center;
   color: #ffffff;
-  background: #0b6eed;
-  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  background: #9c17db;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
   border-radius: 10px;
   outline: none;
   cursor: pointer;
   transition: 0.5s;
 }
 
-.main__left-side_choice button:hover {
-  background: #75adf6;
+.main__choice button:hover {
+  background: #c06de8;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
   transition: 0.5s;
 }
 
-.main__left-side_choice button:active {
-  background: #336ab2;
+.main__choice button:active {
+  background: #9e50c2;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
   transition: 0.5s;
 }
 
 .footer {
   margin-top: 138px;
   margin-bottom: 82px;
-  width: 82%;
+  width: 85%;
   height: 90px;
   background: #ffffff;
-  border: 2px solid #0b6eed;
+  border: 2px solid #9c17db;
   box-sizing: border-box;
   border-radius: 10px;
   display: flex;
@@ -225,7 +218,7 @@ textarea::placeholder {
   font-style: normal;
   font-weight: bold;
   font-size: 24px;
-  line-height: 75%;
+  line-height: 29px;
   text-align: center;
   letter-spacing: 0.1px;
   color: #5c5c5c;
