@@ -2,43 +2,66 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Exo+2:wght@400;700;800&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/style.css">
     <title>textAI - C++ Anti-Plagiarism</title>
 </head>
 
 <body>
-<div class="container">
-    <div class="content">
+<div class="wrapper">
 
+    <div class="container">
         <div class="header">
-            <h1>text.AI</h1>
-            <h2>Intelligent App for text processing</h2>
-        </div>
-
-        <div class="main">
-            <div class="main__left_side">
-                <div class="main__textarea">
-                    <textarea placeholder="Input text..."></textarea>
-                </div>
-                <div class="main__choice">
-                    <select id="select-option">
-                        <option value="">
-                            Uniqueness</option>
-                        <option value="">Repetition</option>
-                        <option value="">Misprint</option>
-                        <option value="">Validation</option>
-                    </select>
-                    <button lass="btn" type="submit">Check</button>
-                </div>
-            </div>
-            <div class="main__right_side">
-                <img src="img/text-ai-image.jpg" alt="text-ai-image">
+            <div class="title">
+                <h1>text.AI</h1>
+                <h2>Intelligent App for text processing</h2>
             </div>
         </div>
+    </div>
 
-        <div class="footer">
+    <div class="container">
+        <main class="main">
+            <div class="sub_content">
+                <div class="">
+                    <form action="#" method="post">
+                        <div class="textarea_form">
+                            <label>
+                                <textarea cols="30" rows="10" placeholder="Input text..."></textarea>
+                            </label>
+                        </div>
+                        <div class="submit_form">
+                            <div class="select">
+                                <label for="select-option">
+                                    <select id="select-option">
+                                        <option value="">
+                                            Uniqueness
+                                        </option>
+                                        <option value="">Repetition</option>
+                                        <option value="">Misprint</option>
+                                        <option value="">Validation</option>
+                                    </select>
+
+                                </label>
+                            </div>
+                            <div class="btn">
+                                <button class="btn" type="submit">Check</button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+
+            <div class="sub_content">
+                <div class="image">
+                    <img src="img/text-ai-image.jpg" alt="text-ai-image">
+                </div>
+            </div>
+
+        </main>
+    </div>
+
+    <div class="container">
+        <footer class="footer">
             <div class="footer__logo">
                 <a href="http://devincubator.by/" target="_blank">
                     <img src="img/incubator-logo.png" alt="incubator-logo">
@@ -66,9 +89,11 @@
                     </li>
                 </ul>
             </div>
-        </div>
+        </footer>
     </div>
+
 </div>
+
 </body>
 
 </html>
