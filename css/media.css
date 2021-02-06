@@ -118,7 +118,6 @@
         line-height: 24px;
     }
     .wrapper {
-
         display: flex;
         align-content: space-between;
         flex-direction: column;
