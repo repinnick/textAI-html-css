@@ -17,7 +17,7 @@ a {
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
-    background: linear-gradient(180deg, #4568dc 0%, #af6ab3 100%), #4568dc;
+    background: linear-gradient(270deg, #4568dc 0%, #af6ab3 100%), #4568dc;
 }
 
 .container {
